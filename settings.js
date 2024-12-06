@@ -6,6 +6,10 @@ function convertToBool(text, fault = 'true') {
 
 
 module.exports = {
+    premiumUsers: ['94741469245'], // ඔබේ number එක
+};
+
+module.exports = {
 SESSION_ID: process.env.SESSION_ID === undefined ? 'VAJIRA-MD=bdkkDZ6Y#TyAY5gH9RGaVR1yIgEVHXf_3UTrpPwJNRa7Ajh6sauo' : process.env.SESSION_ID,
 OWNER_NUMBER: process.env.OWNER_NUMBER === undefined ? '' : process.env.OWNER_NUMBER,
 N_JID: process.env.N_JID=== undefined ? '‌': process.env.N_JID,    
